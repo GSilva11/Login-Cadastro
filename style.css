@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(0deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,7 +32,7 @@ body{
 }
 
 form {
-    width: 80%;
+    width: 100%;
 }
 
 .input-padrao {
