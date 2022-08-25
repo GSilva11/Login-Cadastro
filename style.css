@@ -113,9 +113,7 @@ p {
 }
 
 .copy {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
     text-align: center;
     color: #f8f8f8;
     margin: 0 auto;
