@@ -103,7 +103,7 @@ p {
 
 }
 
-@media (min-width: 700px) {
+@media (max-width: 720px) {
 
     .principal {
          display: flex;
@@ -122,7 +122,7 @@ p {
          box-sizing: border-box;
          align-items: stretch;
          text-align: center;
-         width: auto;
+         width: 70%;
      }
  
      .input-padrao, .enviar {
