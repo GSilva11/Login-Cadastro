@@ -83,3 +83,20 @@ p {
     color: #f8f8f8;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 1800px) {
+
+    .principal,  .botoes{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 25%;
+    }
+    .input-padrao, .enviar {
+        width: 100%;
+    }
+
+}
