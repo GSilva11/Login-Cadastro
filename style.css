@@ -120,6 +120,8 @@ p {
 }
 
 @media screen and (min-width: 1800px) {
+
+
     .principal,  .botoes{
         display: flex;
         flex-wrap: wrap;
@@ -128,8 +130,12 @@ p {
         text-align: center;
         width: auto;
         height: auto;
-      
     }
+
+    .principal {
+        height: 50%;
+    }
+    
     .input-padrao, .enviar {
         width: 100%;
     }
