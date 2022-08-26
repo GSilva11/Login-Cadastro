@@ -103,7 +103,7 @@ p {
 
 }
 
-@media (max-width: 720px) {
+@media (min-width: 700px) {
 
     .principal {
          display: flex;
