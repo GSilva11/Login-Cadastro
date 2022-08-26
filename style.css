@@ -156,7 +156,7 @@ p {
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 55%;
+        width: auto;
     }
 
     .botoes{
@@ -166,7 +166,6 @@ p {
         align-items: stretch;
         text-align: center;
         width: auto;
-        width: 70%;
     }
 
     .input-padrao, .enviar {
