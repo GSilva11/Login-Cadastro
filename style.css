@@ -136,7 +136,7 @@ p {
     }
 
     .button {
-        width: auto;
+        width: 50%;
         padding: 5px 15px;
         margin: 15px 15px;
     }
