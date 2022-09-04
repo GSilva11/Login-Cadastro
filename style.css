@@ -8,7 +8,6 @@
 
 body{
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,7 @@ body{
 }
 
 .principal {
-    width: 30%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,6 +25,7 @@ body{
     text-align: center;
     border-radius: 2.3em;
     padding: 30px;
+    margin: 15px auto;
 }
 
 form {
@@ -117,27 +117,28 @@ p {
     color: #f8f8f8;
 }
 
-@media (min-width: 1800px) {
+@media screen and (max-width: 768px) {
 
-    .principal {
+   .principal {
         display: flex;
-        flex-wrap: wrap;
-        box-sizing: border-box;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 25%;
+        width: auto;
     }
 
     .botoes{
         display: flex;
-        flex-wrap: wrap;
-        box-sizing: border-box;
         align-items: stretch;
         text-align: center;
         width: auto;
-        width: 70%;
+    }
+
+    .button {
+        width: auto;
+        padding: 5px 15px;
+        margin: 15px 15px;
     }
 
     .input-padrao, .enviar {
@@ -146,30 +147,32 @@ p {
 
 }
 
-@media (max-width: 720px) {
-
-   .principal {
+@media screen and (max-width: 400px){
+    
+    .principal {
         display: flex;
-        flex-wrap: wrap;
-        box-sizing: border-box;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 70%;
+        width: auto;
     }
 
     .botoes{
         display: flex;
-        flex-wrap: wrap;
-        box-sizing: border-box;
-        align-items: stretch;
+        align-items: center;
         text-align: center;
-        width: 70%;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .button {
+        width: auto;
+        padding: 5px 15px;
+        margin: 15px 15px;
     }
 
     .input-padrao, .enviar {
         width: 100%;
     }
-
 }
