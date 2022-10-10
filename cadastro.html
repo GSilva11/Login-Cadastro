@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cad.css">
+    <!-- <link rel="stylesheet" href="cad.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
@@ -12,22 +13,22 @@
     <title>Cadastro</title>
 </head>
 <body>   
-    <div class="principal">
+    <main id="principal">
         <h1>Cadastre-se</h1>
-        <p>Ei, insira seus dados para se registrar</p>
+        <p class="call">Ei, insira seus dados para se registrar</p>
     
         <form action="">
-            <input class="input-padrao" type="text" id="nome" required placeholder="Nome">
-            <input class="input-padrao" type="text" id="sobrenome" required placeholder="Sobrenome">
-            <input class="input-padrao" type="email" id="email" required placeholder="Email">
-            <input class="input-padrao" type="password" id="password" required placeholder="Senha">
-            <input class="input-padrao" type="password" id="password-again" required placeholder="Confirmar senha">
+            <input class="input" type="text" id="nome" required placeholder="Nome">
+            <input class="input" type="text" id="sobrenome" required placeholder="Sobrenome">
+            <input class="input" type="email" id="email" required placeholder="Email">
+            <input class="input" type="password" id="password" required placeholder="Senha">
+            <input class="input" type="password" id="password-again" required placeholder="Confirmar senha">
         </form>
-        <input type="submit" value="Cadastrar" class="enviar">
+        <input class="submit" type="submit" value="Cadastrar" >
                 
-        <p>Você tem uma conta?<a class="request" href="index.html"><strong> Acesse agora</strong></a></p>
-        <p class="copy"><strong>Copyright @silva.gabrielgs 2022  |  Privacy Policy</strong> </p>
-    </div>
+        <p>Você tem uma conta?</p>
+        <a class="request" href="index.html"><strong> Acesse agora</strong></a>
+    </main>
     
 </body>
 </html>

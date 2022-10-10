@@ -11,168 +11,102 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     font-family: 'Montserrat', sans-serif;
 }
 
-.principal {
-    width: auto;
+h1{
+    color: #5b32ce;
+    font-weight: bold;
+}
+
+#principal{
+    background: #eee;
+    border-radius: 10px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    justify-content: center;
+    max-height: 470px;
+    height: 100%;
+    max-width: 340px;
+    width: 100%;
+}
+
+.call {
     text-align: center;
-    border-radius: 2.3em;
-    padding: 30px;
-    margin: 15px auto;
+    margin: .6rem;
 }
 
-form {
+.input {
+    padding: .6rem;
+    margin: .6rem 0;
     width: 100%;
-}
-
-.input-padrao {
-    border: none;
-    border-bottom: 2px solid #83D0CB;
-    display: block;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 100%;
-    background: transparent;
-    margin-top: 20px;
-}
-
-.enviar {
-    width: 80%;
-    padding: 15px 0;
-    background-color: #83D0CB;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 15px; 
-    transition: 2s all;
-    cursor: pointer;
-    margin-top: 15px;
-}
-
-.button:hover, .enviar:hover {
-    background: #145277;
-}
-
-p {
-    margin-top: 15px;
-}
-
-.button {
-    margin-top: 15px;
-    background-color: #83D0CB;
     border-radius: 5px;
-    width: 45%;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 2s all;
 }
 
-.button a {
-    text-decoration: none;
-    color: #f8f8f8;
+.submit {
+    padding: 1rem 5rem;
+    background: #5b32ce;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #eee;
     font-weight: bold;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button img {
-    margin-right: 10px;
-}
-
-.botoes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-}
-
-.principal :nth-child(8){
-    margin-top: 25px;
-}
-
-.request {
-    text-decoration: none;
-    color: black;
+    margin-bottom: .6rem ;
+    transition: 1s;
     cursor: pointer;
-    margin-top: 15px;
 }
 
-.copy {
-    position: absolute;
-    bottom: 0;
+.submit:hover{
+    background: #693ae9;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     margin-bottom: 1rem;
-    text-align: center;
-    color: #f8f8f8;
 }
 
-@media screen and (max-width: 768px) {
-
-   .principal {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: auto;
-    }
-
-    .botoes{
-        display: flex;
-        align-items: stretch;
-        text-align: center;
-        width: auto;
-    }
-
-    .button {
-        width: 50%;
-        padding: 5px 15px;
-        margin: 15px 15px;
-    }
-
-    .input-padrao, .enviar {
-        width: 100%;
-    }
-
+.btn{
+    padding: .4rem 1rem;
+    background: #5b32ce;
+    border-radius: 15px;
+    margin: .6rem 0;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 400px){
+.btn a {
+    text-decoration: none;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes {
+    margin-right: .4rem;
+}
+
+.request{
+    text-decoration: none;
+    color: #5b32ce;
+}
+
+@media screen and (max-width: 355px){
     
-    .principal {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    #principal{
+        width: 300px;
+    }
+
+    p{
         text-align: center;
-        width: auto;
     }
 
-    .botoes{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: space-between;
-        width: auto;
-    }
-
-    .button {
-        width: auto;
-        padding: 5px 15px;
-        margin: 15px 15px;
-    }
-
-    .input-padrao, .enviar {
-        width: 100%;
+    .buttons{
+        margin: 0;
     }
 }
