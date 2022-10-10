@@ -1,4 +1,4 @@
-# Tela-login-cadastro
+<h1 align="center">Tela de Login e Cadastro</h1>
 
 ![image](https://user-images.githubusercontent.com/69200574/194953105-9603bc52-7b18-4ea3-b56d-aee21189c04f.png)
 
